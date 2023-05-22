@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int стоимость_билета = 17546;
-        int рубли_в_одной_миле = 20;
-        int количество_начисленных_миль_за_купленный_билет = стоимость_билета/рубли_в_одной_миле;
+        int ticket_cost = 17546;
+        int rubles_in_one_mile = 20;
+        int number_of_numbered_miles_purchased_ticket = ticket_cost/rubles_in_one_mile;
 
-                System.out.println("За данный полёт будет начислено: " + количество_начисленных_миль_за_купленный_билет + "миль");
+                System.out.println("For this flight will be credited: " + number_of_numbered_miles_purchased_ticket + "miles");
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
